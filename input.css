@@ -1,10 +1,6 @@
 @import "tailwindcss";
 
-#home {
-    width: 70%;
-    padding: 10%;
-}
-
-footer {
-    text-align: center;
+@theme {
+    --color-crimson: #621124;
+    --color-note: #f4f4f2;
 }
