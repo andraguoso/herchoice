@@ -9,7 +9,6 @@
       "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-red-800: oklch(44.4% 0.177 26.899);
     --color-white: #fff;
     --spacing: 0.25rem;
     --text-4xl: 2.25rem;
@@ -21,9 +20,6 @@
     --radius-xl: 0.75rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
-    --color-crimson: #621124;
-    --color-note: #f4f4f2;
-    --color-rose: #91394d;
   }
 }
 @layer base {
@@ -235,15 +231,6 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
-  .bg-crimson {
-    background-color: var(--color-crimson);
-  }
-  .bg-note {
-    background-color: var(--color-note);
-  }
-  .bg-rose {
-    background-color: var(--color-rose);
-  }
   .p-2 {
     padding: calc(var(--spacing) * 2);
   }
@@ -268,14 +255,12 @@
   .text-white {
     color: var(--color-white);
   }
-  @media (hover: hover) {
-    .hover\:bg-red-800:hover {
-      background-color: var(--color-red-800);
-    }
-  }
 }
 :root {
   --body-font: "Anonymous Pro", monospace;
+  --color-crimson: #621124;
+  --color-note: #f4f4f2;
+  --color-rose: #91394d;
 }
 body {
   font-family: var(--body-font);
