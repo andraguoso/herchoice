@@ -20,6 +20,9 @@
     --radius-xl: 0.75rem;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --color-crimson: #621124;
+    --color-note: #f4f4f2;
+    --color-rose: #91394d;
   }
 }
 @layer base {
@@ -231,6 +234,15 @@
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
+  .bg-crimson {
+    background-color: var(--color-crimson);
+  }
+  .bg-note {
+    background-color: var(--color-note);
+  }
+  .bg-rose {
+    background-color: var(--color-rose);
+  }
   .p-2 {
     padding: calc(var(--spacing) * 2);
   }
@@ -258,9 +270,6 @@
 }
 :root {
   --body-font: "Anonymous Pro", monospace;
-  --color-crimson: #621124;
-  --color-note: #f4f4f2;
-  --color-rose: #91394d;
 }
 body {
   font-family: var(--body-font);
