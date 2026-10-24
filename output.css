@@ -189,11 +189,20 @@
   }
 }
 @layer utilities {
+  .fixed {
+    position: fixed;
+  }
+  .m-0 {
+    margin: 0px;
+  }
   .ml-auto {
     margin-left: auto;
   }
   .flex {
     display: flex;
+  }
+  .min-h-screen {
+    min-height: 100vh;
   }
   .w-1\/2 {
     width: calc(1 / 2 * 100%);
@@ -210,11 +219,17 @@
   .w-fit {
     width: fit-content;
   }
+  .w-full {
+    width: 100%;
+  }
   .w-lg {
     width: var(--container-lg);
   }
   .w-md {
     width: var(--container-md);
+  }
+  .flex-1 {
+    flex: 1;
   }
   .flex-col {
     flex-direction: column;
@@ -287,6 +302,18 @@
   }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
+  }
+  .px-20 {
+    padding-inline: calc(var(--spacing) * 20);
+  }
+  .py-15 {
+    padding-block: calc(var(--spacing) * 15);
+  }
+  .py-17 {
+    padding-block: calc(var(--spacing) * 17);
+  }
+  .py-17\.5 {
+    padding-block: calc(var(--spacing) * 17.5);
   }
   .text-center {
     text-align: center;
