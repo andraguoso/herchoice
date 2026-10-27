@@ -351,14 +351,6 @@
       scale: var(--tw-scale-x) var(--tw-scale-y);
     }
   }
-  @media (width >= 48rem) {
-    .md\:flex {
-      display: flex;
-    }
-    .md\:flex-col {
-      flex-direction: column;
-    }
-  }
 }
 :root {
   --body-font: "Anonymous Pro", monospace;
